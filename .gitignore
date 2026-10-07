@@ -1,0 +1,21 @@
+# Entorno virtual (pesa cientos de MB y se recrea con pip install)
+cnn_env/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Modelos intermedios pesados que se pueden regenerar con train_cnn.py
+# (model_int8.tflite, model_data.h y class_names.txt SÍ se suben)
+model_out/cnn_cafe.h5
+model_out/model_float32.tflite
+
+# Fotos de entrenamiento: ignoradas por defecto porque pueden incluir
+# manos, rostros u objetos personales de la clase no_cafe.
+# Si quieren compartirlas con el equipo, borren la siguiente línea.
+dataset/
+
+# Archivos del editor / sistema
+.vscode/
+.DS_Store
+Thumbs.db

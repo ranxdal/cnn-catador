@@ -1,0 +1,5 @@
+calidad_alta
+humedad
+no_cafe
+quemado
+rancio
